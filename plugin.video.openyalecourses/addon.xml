@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.openyalecourses" name="Open Yale Courses" version="1.0" provider-name="rlarocque">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Open Yale Courses Video Addon</summary>
+    <description>
+Browse and watch video from Open Yale Courses.
+
+Most of the lectures and course material within Open Yale Courses are licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 license (http://creativecommons.org/licenses/by-nc-sa/3.0/us).
+
+For more information, please refer to the Open Yale Courses web site at http://oyc.yale.edu.
+    </description>
+  </extension>
+  <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+</addon>
